@@ -58,6 +58,8 @@ flask run
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
+11. Now visit http://127.0.0.1:5000/  in your browser of choice and see our home page. 
+
 
 # Useful links
 ## Hosting/Server set-up
