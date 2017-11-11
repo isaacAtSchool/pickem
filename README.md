@@ -36,12 +36,12 @@ source pickem-virtualenv/bin/activate
 ```bash 
 pip install flask flask-sqlalchemy mysql-python flask-login flask-migrate
 ```
-7. set up your environment variables
+7. Change your working directory to `pickem` then set up your environment variables
 ```bash
 export FLASK_APP=run.py
 export FLASK_CONFIG=development
 ```
-8. map the models built in app/models.py then push these mappings to the database. Note that the database uri is in the instance/config.py module
+8. The next commands map the models built in app/models.py then push these mappings to the database. Note that the database uri is in the instance/config.py module.
 ```bash
 flask db init
 flask db migrate
