@@ -34,7 +34,7 @@ source pickem-virtualenv/bin/activate
 5. your prompt should now have **(pickem-virtualenv)** in front of it.
 6. now download the dependencies
 ```bash 
-pip install flask flask-sqlalchemy mysql-python flask-login flask-migrate
+pip install flask flask-sqlalchemy python-dev mysql-python flask-login flask-migrate
 ```
 7. Change your working directory to `pickem` then set up your environment variables
 ```bash
