@@ -2,8 +2,10 @@
  It's not betting but it sure feels like it 
 
 # Getting Started
+
 **Instructions not completely test**
 00. Download MySQL and set up a root user.
+
 0. initalize the MySQL database and database user that the application will be using. For now I have the instructions from the tutorial that I'm basing this project off of. Updated instructions will come when I've working out the database code for Pick 'Em and Win 'Em. changing this code should be fairly easy.
 
 ```bash
