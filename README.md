@@ -72,6 +72,6 @@ flask run
 ## Boot Strap tutorial
 [Bootstrap 3 tutorial with components on sidebar](https://www.w3schools.com/bootstrap/)
 [Bootstrap 3 fancier components](http://bootstrapdocs.com/v3.3.6/docs/components/]
-[How to Use Glyphicons](https://glyphicons.bootstrapcheatsheets.com/) : This might be usefule for creating menus/toolbars.
+[How to Use Glyphicons](https://glyphicons.bootstrapcheatsheets.com/) : This might be useful for creating menus/toolbars.
 
 
