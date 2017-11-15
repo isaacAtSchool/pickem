@@ -6,7 +6,7 @@ class Config(object):
 
     """
 
-class DevelopmentConfig(object):
+class DevelopmentConfig(Config):
     """
     add Dev config later
 
@@ -15,7 +15,7 @@ class DevelopmentConfig(object):
     DEBUG = True
     SQLALCHEMY_ECHO = True
 
-class ProductionConfig(object):
+class ProductionConfig(Config):
     """
     add production config later
 

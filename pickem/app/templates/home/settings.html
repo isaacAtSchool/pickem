@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Settings{% endblock %}
+{% block body %}
+
+<div class="content-section">
+	<div class="container-fluid text-center">    
+		<div class="row content">
+			<div class="col-sm-2 sidenav">
+				<p><a href="#">Link</a></p>
+				<p><a href="#">Link</a></p>
+				<p><a href="#">Link</a></p>
+			</div>
+			<div class="col-sm-8 text-left"> 
+				<h1>{{ my_name }}</h1>
+				<p>Hi every body. This is a paragraph that we can use for whatever purpose we deem necessary.</p>
+				<hr>
+				<h3>Test</h3>
+				<p>Lorem ipsum...</p>
+			</div>
+			<div class="col-sm-2 sidenav">
+				<div class="well">
+					<p>stuff</p>
+				</div>
+				<div class="well">
+					<p>more stuff here</p>
+				</div>
+				<form action="{{ url_for('home.say_hello') }}" method="post">
+					<input type="text" class="form-control" name="newUserName">
+					<input type="submit" class="btn btn-info" value="Input Button">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
