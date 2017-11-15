@@ -68,3 +68,10 @@ flask run
 [Setting up a flask app in apache](http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/)
 
 [Other server options under the "Self Hosted Options" section](http://flask.pocoo.org/docs/0.12/deploying/)
+
+## Boot Strap tutorial
+[Bootstrap 3 tutorial with components on sidebar](https://www.w3schools.com/bootstrap/)
+[Bootstrap 3 fancier components](http://bootstrapdocs.com/v3.3.6/docs/components/]
+[How to Use Glyphicons](https://glyphicons.bootstrapcheatsheets.com/) : This might be usefule for creating menus/toolbars.
+
+
